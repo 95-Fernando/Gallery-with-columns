@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(44, 40, 40, 0.499);
+    margin: 0;
+    margin-top: 6rem;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    columns: 3 200px;
+    column-gap: 10px;
+    column-span: all;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card{
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: .7rem;
+    background-color: #333;
+    color: aliceblue;
+ 
+}
+
+.card:hover{
+    background-color: aliceblue;
+    box-shadow: 0 0 13px lightseagreen;
+    color: #333;
+    transition: .5s;
+}
+
+.title__container{
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+
+.icon{
+    width: 50px;
+}
+
+.header__container{
+   width: 100vw;
+    position: fixed;
+    top: 0;
+    padding-left: 15px;
+    padding-top: 7px;
+    background-color: #333;
+}
